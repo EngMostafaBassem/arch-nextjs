@@ -90,6 +90,9 @@
 }
 
 @media only screen and (max-width:660px){
+    .form_wrapper{
+        min-height:auto;   
+    }
     .form{
         flex-basis: 100%;
     }
