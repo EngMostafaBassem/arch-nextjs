@@ -1,0 +1,96 @@
+.contact_wrapper{
+    background-color: #272727;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form_wrapper{
+    min-height: 95vh;
+    width: 90rem;
+    margin: 5rem;
+    background:linear-gradient(rgba(0,0,0,0.8)), url('/images/contact-bg.jpg')  center no-repeat ;
+    background-size: cover;
+    display: flex;
+
+
+}
+.form{
+    flex-basis: 65%;
+    padding: 6rem;
+    background-color: white;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+    
+}
+.form_title{
+    color: #333;
+    font-size: 6rem;
+    font-weight: 300; 
+}
+.form_control{
+    width: 100%;
+    margin: 5rem 0;
+    position: relative;
+}
+
+.form_control input:focus-within ~ label, .form_control label{
+    color:#636363 ;
+    font-size:2rem ;
+    position: absolute;
+    bottom: 2rem;
+    left:0;
+    transition: all 0.5s ease-in-out;
+    pointer-events: none;
+}
+.form_control textarea ~label{
+    bottom: 5rem;
+}
+.form_control input,.form_control textarea{
+    outline:none;
+    width: 100%;
+    border:none;
+    border-bottom: 0.2rem #636363 dashed;
+    color:#636363;
+    font-size:2rem ;
+    transition: all 0.3s ease-in-out;
+   
+}
+.form_control input:focus,.form_control textarea:focus{
+    border-bottom: 0.2rem #636363 solid;
+}
+.form_control input:focus ~label{
+    font-size:1.5rem ;
+    bottom: 2rem;   
+}
+
+.form_control textarea:focus ~label{
+    font-size:1.5rem ;
+    bottom: 5rem;   
+}
+.form_btn{
+    width: 100%;
+    background-color: var(--primary-color);
+    outline: none;
+    border:none;
+    color: white;
+    text-shadow: 0rem 0rem 0.5rem rgba(0, 0, 0, 0.87);
+    height: 5rem;
+    font-size: 2rem;
+    cursor: pointer;
+    margin: 2rem 0;
+    transition: all 0.5s ease-in-out;
+}
+.form_btn:hover{
+    box-shadow: 0 0 1.5rem var(--primary-color);
+}
+
+@media only screen and (max-width:660px){
+    .form{
+        flex-basis: 100%;
+    }
+ }

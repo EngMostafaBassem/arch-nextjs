@@ -1,0 +1,39 @@
+.teams_wrapper{
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ padding: 5rem;
+
+}
+.teams_header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7rem;
+
+}
+
+.team_title{
+    font-size: 5rem;
+    color: #4b4b4b;
+    font-weight: 300;
+    padding-bottom: 3rem;
+
+}
+
+.team_title_line{
+    width: 50%;
+    background-color: var(--primary-color);
+    height: 0.3rem;
+}
+
+.teams_cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}

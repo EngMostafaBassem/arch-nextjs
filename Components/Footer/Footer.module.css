@@ -1,0 +1,23 @@
+.footer_wrapper{
+    height: 15rem;
+    background-color: #17181b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.copyrights{
+    color: #a7a7a7;
+    font-size: 1.5rem;
+
+}
+.social_links{
+    display: flex;
+}
+.social_links i{
+    font-size: 2rem;
+    color: #a7a7a7;
+    margin: 0 2rem;
+    cursor: pointer;
+}
