@@ -1,6 +1,7 @@
 .header_wrapper{
  height: 100vh;   
  position: relative;
+ overflow: hidden;
 }
 
 .header_img{ 
@@ -31,6 +32,7 @@
 }
 .header_content p{
     font-weight: bold;
+    font-weight: 300;
     color: white;
     font-size: 3rem;
     text-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.884);

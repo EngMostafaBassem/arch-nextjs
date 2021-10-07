@@ -24,7 +24,7 @@ const AboutUs:React.FC=()=>{
            </div>
              </div> 
             <div className={styles.spec_sec}>
-               <Image src='/images/house.png' width='800px' height='500px' className={styles.spec_pic}/>
+               <Image src='/images/house.png' width='800px' height='500px' className={styles.spec_pic} alt="house-image"/>
             </div>
             <div className={styles.spec_sec}>
              <div className={styles.spec}>

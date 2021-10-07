@@ -7,13 +7,12 @@ interface TeamProps{
     imgSrc:string;
     position:string;
     content:string;
-    
 }
 const TeamCard:React.FC<TeamProps>=({title,imgSrc,position,content})=>{
     return(
         <Tilt>
          <div className={styles.tcard_wrapper}>
-          <Image src={imgSrc}  className={styles.tcard_img} layout='fill'/>
+          <Image src={imgSrc}  className={styles.tcard_img} layout='fill' alt="person-img"/>
           <div className={styles.tcard_info}>
             <h3 className={styles.tcard_title}>{title}</h3>
             <p  className={styles.tcard_position}>{position}</p>

@@ -48,10 +48,10 @@
 }
 .tcard_desc{
     color:white ;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     text-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.856);
     max-width: 70%;
-    font-weight: bold;
+    font-weight: 300;
     padding-bottom: 2rem;
 }
 .tcard_link{
