@@ -10,24 +10,5 @@
    }
    
 
- @media only screen and (max-width:1080px){
-    html{
-        font-size: 48%;
-    }
-   }
-   
 
-@media only screen and (max-width:750px){
-    html{
-        font-size: 45%;
-    }
-    
-   }
-     
-@media only screen and (max-width:420px){
-    html{
-        font-size: 40%;
-    } 
-   }
-     
  

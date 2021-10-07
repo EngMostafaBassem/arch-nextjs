@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from './Header.module.css'
-import Image from 'next/image'
 const Header=()=>{
     return(
         <div className={styles.header_wrapper}>      
