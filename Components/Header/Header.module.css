@@ -41,7 +41,7 @@
 .header_content  button{
     width: 25rem;
     height: 6rem;
-    background-color: var(--primary-color);
+    background-color: #c29525;
     color: white;
     outline: none;
     border:none;
@@ -49,6 +49,7 @@
     cursor: pointer;
     text-transform: uppercase;
     transition: all 0.5s ease-in-out;
+    text-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.493) ;
 }
 
 .header_content button:hover{
