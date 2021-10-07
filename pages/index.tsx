@@ -19,11 +19,6 @@ const Home: NextPage = () => {
   },[])
   return ( 
    <div>
-     <Head> 
-        <title>Architect website</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"></link>
-        <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;700&display=swap" rel="stylesheet"></link>
-      </Head> 
       {
          loading?
           <div className={styles.loading_wrapper}>  
