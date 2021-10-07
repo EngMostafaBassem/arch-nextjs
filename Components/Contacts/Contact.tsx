@@ -6,19 +6,16 @@ const Contact:React.FC=()=>{
    <div className={styles.form_wrapper}>
        <form  className={styles.form}>
        <h2 className={styles.form_title}>Contact</h2>
-         <div className={styles.form_control}>
-           
-             <input type="text" required/>
+         <div className={styles.form_control}>    
+             <input type="text" required name="name"/>
              <label>FULL NAME</label>
          </div>
-         <div className={styles.form_control}>
-           
-             <input type="email" required/>
+         <div className={styles.form_control}>  
+             <input type="email" required name="email"/>
              <label>EMAIL</label>
          </div>
-         <div className={styles.form_control}>
-            
-             <textarea></textarea> 
+         <div className={styles.form_control}>     
+             <textarea name="message"></textarea> 
              <label>MESSAGE</label>
          </div>
          <button className={styles.form_btn}>SUBMIT</button>
